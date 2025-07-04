@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python foundationstereo.py --checkpoint_path /workspace/ros2/src/graspnet-baseline/checkpoint-rs.tar --visualize --mask_path /workspace/ros2/src/graspnet-baseline/masks/mask_1.png  --pcd_file_path /workspace/ros2/src/graspnet-baseline/ply/cloud_colored.ply --intrinsics_path /workspace/ros2/src/graspnet-baseline/K/K_rgb.txt --publish_tf

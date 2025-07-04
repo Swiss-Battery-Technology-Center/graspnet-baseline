@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python image_demo.py --checkpoint_path /workspace/ros2/src/graspnet-baseline/checkpoint-rs.tar --input_dir /workspace/ros2/src/graspnet-baseline/test --visualize

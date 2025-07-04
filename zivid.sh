@@ -1,0 +1,3 @@
+CUDA_VISIBLE_DEVICES=0 python zividtest.py --checkpoint_path /workspace/ros2/src/graspnet-baseline/checkpoint-rs.tar --rgb_path /workspace/ros2/src/graspnet-baseline/doc/example_data/rgb_20250430_152951.png \
+    --depth_path /workspace/ros2/src/graspnet-baseline/doc/example_data/depth_20250430_152951.png \
+    --meta_path /workspace/ros2/src/graspnet-baseline/doc/example_data/meta_20250430_152951.mat \

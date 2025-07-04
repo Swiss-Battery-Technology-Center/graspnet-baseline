@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python demo_pointcloud.py --checkpoint_path /workspace/ros2/src/graspnet-baseline/checkpoint-rs.tar  --pcd_file_path /workspace/ros2/src/graspnet-baseline/recorded_frames/cloud.ply
